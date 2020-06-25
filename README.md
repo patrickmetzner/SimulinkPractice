@@ -6,7 +6,7 @@
 
 The system designed in the **TeslaModelS.slx** file (image below) represents a **Tesla Model S** car. Each block represents a subsystem of the car.
 
-![Preview-Screens](https://github.com/patrickmetzner/HeartRateMonitor/blob/master/app.jpeg)
+![Preview-Screens](https://github.com/patrickmetzner/SimulinkPractice/blob/master/system.PNG)
 
 The goal of this project was to simulate how a simple cruise control system would work in that vehicle. At the left most block of the system we choose the speed at which we want to set our cruise control and this information passes through 3 main blocks, the **PID**, the  **Brushed DC Motor** and the **Car Dynamics** function. Each block has its inputs and outputs connected according to what we would expect in real life, making a closed feedback loop.
 
@@ -18,6 +18,6 @@ The **Car Dynamics** function can be found at the **Car Dynamics.m** file. It i
 
 We can open each individual scope to see how each parameter/signal changed during the simulation period. The image below shows us how the speed changed over time during a 50 seconds simulation with the input speed set to 65mph. The **PID** parameters were set to 50, 3 and 100, respectively (image below).   
 
-![Preview-Screens](https://github.com/patrickmetzner/HeartRateMonitor/blob/master/app.jpeg)    
+![Preview-Screens](https://github.com/patrickmetzner/SimulinkPractice/blob/master/output.PNG)    
 
-![Preview-Screens](https://github.com/patrickmetzner/HeartRateMonitor/blob/master/app.jpeg)
+![Preview-Screens](https://github.com/patrickmetzner/SimulinkPractice/blob/master/PID.PNG)
